@@ -32,4 +32,5 @@ git commit -m "Commit name"
 git push origin master/main
 
 
-i'm branch main
+git branch     | Посмотреть список веток
+git branch name_branch     | Создать ветку с названием
