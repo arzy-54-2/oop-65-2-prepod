@@ -36,9 +36,15 @@ class Fly:
     def action(self):
         print("Fly")
 
+
 class Swim:
+
     def action(self):
         print("Swim")
+
+    def action2(self):
+        pass
+
 
 class Animal(Fly, Swim):
     pass
