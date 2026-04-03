@@ -16,14 +16,14 @@ kirito = Hero("Ardager", 100, 1000)
 
 # Дочерний класс
 class MageHero(Hero):
-
-    def action(self):
-        print(f"i'm {self.name}  this my base action!! my MP {self.mp}")
-
-
-    def __init__(self, name, lvl, hp, mp):
-        super().__init__(name, lvl, hp)
-        self.mp = mp
+    pass
+    # def action(self):
+    #     print(f"i'm {self.name}  this my base action!! my MP {self.mp}")
+    #
+    #
+    # def __init__(self, name, lvl, hp, mp):
+    #     super().__init__(name, lvl, hp)
+    #     self.mp = mp
 
 
 asuna = MageHero("Asuna", 100, 1000, 999)
