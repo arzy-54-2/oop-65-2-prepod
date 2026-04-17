@@ -146,5 +146,5 @@ class User:
 user_1 = User("Ardager", "Kartanbekov")
 user_2 = User("Ardager1", "Kartanbekov2")
 
-# print(user_1.full_name())
+# print(user_1.full_name)
 
